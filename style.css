@@ -382,6 +382,17 @@ a {
   gap: 18px;
 }
 
+.recommended-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.recommended-card {
+  background: var(--surface);
+}
+
 .product-card {
   border: 1px solid var(--line);
   border-radius: 14px;
